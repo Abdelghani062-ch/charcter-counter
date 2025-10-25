@@ -225,11 +225,6 @@ header {
     gap: 1rem;
   }
 
-  /* #logo {
-    flex-direction: column;
-    text-align: center;
-  } */
-
   #hlogo {
     font-size: 1.2rem;
   }
@@ -266,4 +261,5 @@ header {
   .last-art {
     max-width: 100%;
   }
+
 }
