@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="proj.css">
+</head>
+
+<body>
+    <header>
+        <!--logo-->
+        <div id="logo">
+            <div id="carre"> </div>
+            <div id="cer"></div>
+            <div id="cer2"></div>
+            <h2 id="hlogo">Character Counter</h2>
+        </div>
+        <div id="dark"><img src="night-mode.png" alt="" width="30px" style="cursor: pointer;" id="night">
+        <img src="brightness.png" alt="" width="30px" style="cursor: pointer;display: none; " id="weather"></div>
+        
+
+    </header>
+    <section>
+        <article id="article1"><h1 id="titreana">Analyze your text <br>
+            in real-time.</h1>
+        <textarea name="" id="textarea" placeholder="Start typing here...(or paste your text)" ></textarea>
+        <div>
+           
+                <form id="form"> <span id="span1">
+            <input type="checkbox" name="" id="exclude-space"><label for="">Exclude Spaces</label>
+            <input type="checkbox" name="" id="Set-char"><label for="">Set Character Limit</label></span>
+            <span><h5>Approx. reading time:0 minute</h5></span></form>
+            
+        </div>
+        </article>
+        <article id="article2">
+            <div id="total"><h1 >00 </h1><h4>total Character</h4></div>
+            <div id="word"><h1 >00</h1><h4>Word Count</h4></div>
+            <div id="sentence"><h1 >00</h1> <h4>Sentence Count</h4></div>
+            
+            
+        </article>
+        <article class="last-art">
+            
+        </article>
+    </section>
+
+<script src="proj.js"></script>    
+</body>
+</html>
